@@ -145,6 +145,8 @@
       {% endif %}
     </div>
 
+    <div>{{ entry.eventtitle }}</div>
+    
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
@@ -165,6 +167,9 @@
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
+    {% endif -%}
+    {% if entry.locationn %}
+      {% capture entrytype %}{{ entrytype }}{{ entry.locationn }}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
       {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}

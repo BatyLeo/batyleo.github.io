@@ -1,9 +1,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research engineer
+      institution: CERMICS, École des Ponts
+      year: 2025-now
+      description:
     - title: PhD
       institution: CERMICS, École des Ponts
-      year: 2022-now
+      year: 2022-2025
       description: Operations Research and Machine Learning to create resilient rotations for an airline 
     - title: Internship at SNCF
       year: Apr-Sept 2021
