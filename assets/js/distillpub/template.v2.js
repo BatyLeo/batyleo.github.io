@@ -1084,11 +1084,7 @@ ${math}
     let byline = dom.querySelector("d-byline");
     if (!byline) {
       if (data.authors) {
-<<<<<<< HEAD
-        byline = dom.createElement('d-byline');
-=======
         byline = dom.createElement("d-byline");
->>>>>>> v0.13.4
         // body.insertBefore(byline, article);
       } else {
         console.warn("No authors found in front matter; please add them before submission!");

@@ -17,15 +17,15 @@ nav_order: 2
 
 <h2>Papers</h2>
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
-<!-- {% bibliography %} -->
+{% bibliography %}
+<!-- {% bibliography -f {{ site.scholar.bibliography }} %} -->
 
 </div>
 
-<div class="publications">
+<!-- <div class="publications">
 
 <h2>Conference talks</h2>
 
 {% bibliography -f talks %}
 
-</div>
+</div> -->
