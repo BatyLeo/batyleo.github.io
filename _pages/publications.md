@@ -13,19 +13,14 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<div class="publications">
-
 <h2>Papers</h2>
 
+<div class="publications">
 {% bibliography %}
-<!-- {% bibliography -f {{ site.scholar.bibliography }} %} -->
-
 </div>
 
-<!-- <div class="publications">
+<h2>Talk history</h2>
 
-<h2>Conference talks</h2>
-
+<div class="publications">
 {% bibliography -f talks %}
-
-</div> -->
+</div>
