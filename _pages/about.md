@@ -14,7 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a second year PhD student at [CERMICS](https://cermics-lab.enpc.fr/) under the supervision of [Axel Parmentier](https://cermics.enpc.fr/~parmenta/), and industrial collaboration with Air France.
+I am a research engineer at [CERMICS](https://cermics-lab.enpc.fr/).
+Previously, I was a PhD student at [CERMICS](https://cermics-lab.enpc.fr/) under the supervision of [Axel Parmentier](https://cermics.enpc.fr/~parmenta/), and industrial collaboration with Air France.
 
 <h5>Research interests:</h5>
 - Combinatorial optimization/Operations Research

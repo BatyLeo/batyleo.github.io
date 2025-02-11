@@ -4,8 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - axelparmentier/InferOpt.jl
+  - JuliaDecisionFocusedLearning/InferOpt.jl
+  - JuliaDecisionFocusedLearning/DecisionFocusedLearningBenchmarks.jl
   - BatyLeo/ConstrainedShortestPaths.jl
   - BatyLeo/StochasticVehicleScheduling.jl
-  - axelparmentier/MinimumWeightTwoStageSpanningTree.jl
+  - BatyLeo/PiecewiseLinearFunctions.jl
   - BatyLeo/batyleo.github.io
