@@ -1,6 +1,8 @@
 github_users:
   - BatyLeo
 
+repo_description_lines_max: 2
+
 github_repos:
   - axelparmentier/InferOpt.jl
   - BatyLeo/ConstrainedShortestPaths.jl
